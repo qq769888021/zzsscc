@@ -1,0 +1,7 @@
+body-parser
+const bodyParser=require('body-parser');
+//将中间件内部解析为对象的过程，默认使用第三方的查询字符串模块qs
+app.use(bodyParser.urlencoded({
+	extended:false//不使用第三方的qs模块，而是核心模块querystring
+}));
+使用req.body  获取传输的数据

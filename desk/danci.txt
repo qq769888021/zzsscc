@@ -1,0 +1,213 @@
+边框简写方式
+	solid:实线
+	圆点虚线:dotted
+	方框虚线:dashed
+	双实线:double
+	边框缺省值:1.5px
+最简方式:边框粗细 和 颜色可以省略
+	ex:
+	border:1px solid red;
+	透明:transparent
+	rgb:rgba(0,0,0,0)
+单独定义四条边的某一个属性:
+	border-color:
+	border-width:
+	border-style:
+单边单属性定义:
+	border-top-style:
+	border-right-color:
+	border-top-width:
+边框的倒角:
+	圆角不依赖边框
+	
+	border-radius:
+	取值:以px为单位的数字
+	       %
+边框的阴影:
+	box-shadow
+轮廓:
+	outline
+	outline:0; 清除边框
+	outline:none;  清除边框
+框模型/盒子模型:
+	元素在页面上实际占地空间的计算方式
+	一切元素皆为框(所有的元素都有占地空间)
+	
+	浏览器默认元素宽度:左外边距+左边框+左内边距+内容区域宽度+右内边距+右边框+右外边距
+	浏览器默认元素高度:上外边距+上边框+上内边距+内容区域高度+下内边框+下边框+下外边距
+
+border-collapse:
+separate		td边框分离(缺省值)
+collapse		td边框合并
+
+border-spacing
+		td边框的之间的距离(px)
+
+caption-side:
+		table标题的位置(top/bottom)
+table-layout:	
+auto 		内容大,尺寸小,以内容为准;内容小,尺寸大,以尺寸为准(默认缺省)
+fixed		 固定表格布局,以尺寸为准(逐行渲染,效率高)
+
+vertical-align:  tr/td设置文本垂直对齐方式
+top		居上
+middle		居中
+bottom		居下
+
+float:浮动
+left		向左浮动
+right		向右浮动
+none		不浮动
+clear:清除浮动
+left		清除左浮动的影响
+right		清除右浮动的影响
+both		清除左右浮动的影响
+
+////////////////////day12////////////////////
+
+display:改变元素的类型
+none		隐藏(脱离文档流)
+block		块级
+inline		行内
+inline-block	行内块
+table		表格
+
+visibility:显示效果
+visible		显示/可见(默认缺省)
+hidden		隐藏(不脱离文档流)
+
+opacity:透明(取值0~1)
+0		全透明
+1		不透明
+
+vertical-align:设给图片设置垂直对齐,图片的位置不动,影响的是图片左右的位置
+baseline		基线
+top		居上
+middle		居中
+bottom		居下
+
+cursor:改变光标
+default		箭头
+pointer		小手
+crosshair		瞄准
+help		帮助
+text		文本
+wait		等待
+
+list-style-type:改变列表标识样式
+disc		圆点
+circle		圆圈
+square		小方框
+none		无
+
+list-style-image:改变列表标识为图片
+url()		(括号内写图片的路径)
+
+list-style-position:改变列表项的位置
+outside		外部(默认值)
+inside		内部
+
+list-style:type image position;   简写方式
+
+position:定位
+static		静态
+relative		相对定位(相对定位没有脱离文档流,对周围元素没有任何影响 )
+absolute		绝对定位(脱离文档流)
+fixed		固定定位(固定在可视区域内不动)
+
+z-index:		调整堆叠顺序
+(值为无单位正整数)
+
+btn 基本类
+btn-danger	红色
+btn-success	绿色
+btn-warning	黄色
+btn-primary	主要的 蓝色
+btn-secondary	次要的 灰色
+btn-info		信息 藏青色
+btn-dark		深色
+btn-light		浅色
+只有边框的按钮
+btn-outline-info/danger/...
+btn-lg		大按钮
+btn-sm		小按钮
+btn-block		整行按钮
+btn-link		链接按钮
+
+图片相关
+rounded		圆角 4px
+rounded-circle	圆角 50%
+img-thumbnail	缩略图,有内边距有边框的图片
+img-fluid		响应式图片,图片可以缩放,但是最大不能超过原始尺寸
+
+文字相关
+text-danger/info/warning...	字体颜色
+text-muted	灰色字体
+text-capitalize	首字母大写
+text-uppercase/lowercase	大小写
+font-weight-light/normal/bold	字体粗细
+字号 h1~h6 类名
+
+filter: blur(4px);设置模糊效果
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
